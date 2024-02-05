@@ -2,16 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
   //! Randomize The Cover Image
   const randomizeImages = () => {
     let imgs = [
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-1.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-2.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-3.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-4.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-5.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-6.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-7.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-8.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-9.jpg",
-      "https://omardeeb311.github.io/myPortfolio/imgs/img-10.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-1.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-2.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-3.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-4.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-5.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-6.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-7.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-8.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-9.jpg",
+      "https://omardeeb311.github.io/Omar_Portfolio/imgs/img-10.jpg",
     ];
     setInterval(() => {
       let index = Math.floor(Math.random() * imgs.length);

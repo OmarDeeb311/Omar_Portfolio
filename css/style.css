@@ -983,7 +983,7 @@ body {
         transform: translate(-50%, -50%);
 
         & img {
-          filter: saturate(0.6);
+          filter: none;
         }
       }
 

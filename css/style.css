@@ -458,10 +458,14 @@ body {
               padding: 5px;
             }
             .name {
-              margin-top: 10px;
+              margin-top: 15px;
+              letter-spacing: 1px;
             }
             .company {
+              display: inline-block;
               letter-spacing: 1px;
+              color: var(--yellow-color);
+              margin: 5px 0px;
             }
           }
         }
@@ -486,12 +490,15 @@ body {
             }
 
             .name {
-              margin-top: 10px;
+              margin-top: 15px;
               letter-spacing: 1px;
             }
 
             .company {
+              display: inline-block;
               letter-spacing: 1px;
+              color: var(--yellow-color);
+              margin: 5px 0px;
             }
           }
         }
@@ -526,7 +533,7 @@ body {
                 background-color: #17171b63;
                 color: var(--yellow-color);
                 letter-spacing: 1px;
-                font-weight: 800;
+                font-weight: 400;
                 width: 100px;
                 height: 100px;
                 display: flex;
@@ -534,6 +541,7 @@ body {
                 align-items: center;
                 border-radius: 50%;
                 position: relative;
+                font-size: large;
 
                 &::before {
                   content: "";
@@ -565,42 +573,52 @@ body {
             }
           }
         }
-        /*! Web Design */
+        /*! Frontend Development */
         .skill:first-child {
           .parent .child:first-child :first-child::after {
-            transform: rotate(333deg);
+            transform: rotate(387deg);
           }
 
           .parent .child:nth-child(2) :first-child::after {
-            transform: rotate(387deg);
+            transform: rotate(369deg);
           }
 
           .parent .child:nth-child(3) :first-child::after {
             transform: rotate(387deg);
           }
         }
-        /*! Front-end */
+        /*! Frontend Libraries */
         .skill:nth-child(3) {
           .parent .child:first-child :first-child::after {
-            transform: rotate(333deg);
+            transform: rotate(387deg);
           }
 
           .parent .child:nth-child(2) :first-child::after {
-            transform: rotate(369deg);
+            transform: rotate(387deg);
           }
 
           .parent .child:nth-child(3) :first-child::after {
-            transform: rotate(297deg);
-          }
-
-          .parent .child:nth-child(4) :first-child::after {
-            transform: rotate(261deg);
+            transform: rotate(369deg);
           }
         }
-        /*! Back-end */
+        /*! Backend Development */
         .skill:nth-child(5) {
           .parent .child:first-child :first-child::after {
+            transform: rotate(369deg);
+          }
+
+          .parent .child:nth-child(2) :first-child::after {
+            transform: rotate(387deg);
+          }
+
+          .parent .child:nth-child(3) :first-child::after {
             transform: rotate(333deg);
+          }
+        }
+        /*! Database */
+        .skill:nth-child(7) {
+          .parent .child:first-child :first-child::after {
+            transform: rotate(387deg);
           }
 
           .parent .child:nth-child(2) :first-child::after {
@@ -608,29 +626,31 @@ body {
           }
 
           .parent .child:nth-child(3) :first-child::after {
-            transform: rotate(315deg);
+            transform: rotate(369deg);
           }
         }
-        /*! Version-Control-System */
-        .skill:nth-child(7) {
-          .parent .child:first-child :first-child::after {
-            transform: rotate(333deg);
-          }
-        }
-        /*! API */
+        /*! DBMS */
         .skill:nth-child(9) {
           .parent .child:first-child :first-child::after {
             transform: rotate(387deg);
           }
 
           .parent .child:nth-child(2) :first-child::after {
-            transform: rotate(297deg);
+            transform: rotate(369deg);
           }
         }
-        /*! Problem Solving */
+        /*! API Integration */
         .skill:nth-child(11) {
           .parent .child:first-child :first-child::after {
-            transform: rotate(315deg);
+            transform: rotate(369deg);
+          }
+
+          .parent .child:nth-child(2) :first-child::after {
+            transform: rotate(387deg);
+          }
+
+          .parent .child:nth-child(3) :first-child::after {
+            transform: rotate(350deg);
           }
         }
       }
@@ -857,7 +877,7 @@ body {
 .bar {
   height: 1px;
   width: 90%;
-  margin: 25px 0px;
+  margin: 20px 0px;
   background: linear-gradient(45deg, #dde6ed52, transparent);
 }
 
@@ -983,7 +1003,7 @@ body {
         transform: translate(-50%, -50%);
 
         & img {
-          filter: none;
+          filter: saturate(0.6);
         }
       }
 

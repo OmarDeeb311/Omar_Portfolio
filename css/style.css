@@ -612,7 +612,7 @@ body {
           }
 
           .parent .child:nth-child(3) :first-child::after {
-            transform: rotate(333deg);
+            transform: rotate(350deg);
           }
         }
         /*! Database */
